@@ -66,9 +66,11 @@ To accomplish this, you're going to be following six steps, listed below:
 
 ### Step 1: Confirm You Have Both Branches
 
-Remember to fork then clone down this repo. Then change directories into it using:
+Remember to fork then clone down this version of the repo: 
+https://github.com/learn-co-curriculum/git-workflow-merge-conflicts-lab. 
+Then change directories into it using:
 
-- `cd git-merge-conflicts-< your cohort identifier >`
+- `cd git-workflow-merge-conflicts-lab`
 
 The first step is to see how many branches you have locally. Run `git branch`
 from your terminal to see all of the branches. The output should look like this:
@@ -307,11 +309,13 @@ That's it! Open up `index.html` in your browser to see your beautiful work!
 ### Step 6: Wrap Up
 
 Remember, while your computer has these updates, GitHub has no idea that you
-made them. These are all local. Typically, the next step would be to create a
-branch off of your _local_ master with `git checkout -b wip-marty-and-doc-added
-master`, push that branch with, `git push origin wip-marty-and-doc-added` and
-then create a pull request to merge `wip-marty-and-doc-added` to the remote
-`master` branch.
+made them. These are all local. 
+
+Typically, the next step would be to create a local branch, push that 
+branch to the remote, and then create a pull request to merge your branch 
+into the remote `master` branch.
+
+**In this lab, you do not need to create a pull request.**
 
 ## Conclusion
 
